@@ -32,7 +32,6 @@ public class Author {
                 Objects.equals(authorSName, author.authorSName) &&
                 Objects.equals(authorBooks, author.authorBooks);
     }
-
     @Override
     public int hashCode() {
         return Objects.hash(id, authorFName, authorSName, authorBooks);
